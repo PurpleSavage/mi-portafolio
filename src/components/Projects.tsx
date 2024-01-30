@@ -8,10 +8,16 @@ type ObjProjects={
 }
 const objProjects:ObjProjects[]=[
     {
+        title:"CRM",
+        url:"https://firebasestorage.googleapis.com/v0/b/portafolio-5f5dc.appspot.com/o/images%2Fcrm-mockup.png?alt=media&token=6d29e5d1-bd89-4f28-92e0-3815b009a887",
+        id:crypto.randomUUID(),
+        urlProject:"https://crm-frontend-react.vercel.app/",
+    },
+    {
         title:"Route 66",
         url:"https://firebasestorage.googleapis.com/v0/b/admintask-f0dcc.appspot.com/o/media%2FTreeRoute66.png?alt=media&token=ffe6d870-c4c5-4fa5-9e9a-a08fc7cc20b4",
         id:crypto.randomUUID(),
-        urlProject:"https://adm-task-frontend-h3rv-nk6wcnwuy-pauls-projects-5734a1cd.vercel.app/",
+        urlProject:"https://adm-task-frontend-h3rv.vercel.app/",
 
     },
     {
@@ -27,17 +33,17 @@ const objProjects:ObjProjects[]=[
       urlProject:"https://clima-purplesavge.netlify.app/",
     },
     {
-      title:"Juego del gato",
-      url:"https://firebasestorage.googleapis.com/v0/b/admintask-f0dcc.appspot.com/o/media%2FjuegoGato.png?alt=media&token=be7571b4-21bf-4286-8cb8-695237c9ecdd",
-      id:crypto.randomUUID(),
-      urlProject:"https://tictactoe-pruplesavage.netlify.app/",
-    },
-    {
       title:"Cotizador-criptos",
       url:"https://firebasestorage.googleapis.com/v0/b/portafolio-5f5dc.appspot.com/o/images%2Fcotizador-criptos.png?alt=media&token=fe1ce2a2-f5b2-4d4d-b2f3-769b3f1478ec",
       id:crypto.randomUUID(),
       urlProject:"https://cotizador-criptos-budkurvrj-pauls-projects-5734a1cd.vercel.app/"
-    }
+    },
+    {
+      title:"Juego del gato",
+      url:"https://firebasestorage.googleapis.com/v0/b/admintask-f0dcc.appspot.com/o/media%2FjuegoGato.png?alt=media&token=be7571b4-21bf-4286-8cb8-695237c9ecdd",
+      id:crypto.randomUUID(),
+      urlProject:"https://tictactoe-pruplesavage.netlify.app/",
+    } 
 ]
 
 const Projects = () => {
